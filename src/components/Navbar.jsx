@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -10,11 +11,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-[#0B1F3A] rounded-lg flex items-center justify-center text-white font-semibold">
+          {/* <div className="w-8 h-8 bg-[#0B1F3A] rounded-lg flex items-center justify-center text-white font-semibold">
             R
-          </div>
+          </div> */}
+          <img src={logo} alt="" className="size-12" />
           <span className="text-lg font-semibold tracking-tight text-[#0B1F3A]">
-            RADINTECH
+            RADINTECH INDIA
           </span>
         </div>
 

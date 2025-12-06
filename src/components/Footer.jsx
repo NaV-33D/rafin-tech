@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from 'react'
 
 const Footer = () => {
@@ -38,35 +39,35 @@ const Footer = () => {
           >
             Solutions
           </h5>
-          <ul className="space-y-3 text-sm text-slate-400" style={{}}>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors font-geist-mono"
-                style={{}}
-              >
-                Smart Class
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors font-geist-mono"
-                style={{}}
-              >
-                Content Development
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors font-geist-mono"
-                style={{}}
-              >
-                AV Integration
-              </a>
-            </li>
-          </ul>
+          <ul className="space-y-3 text-sm text-slate-400">
+  <li>
+    <Link
+      to="/solutions"
+      className="hover:text-white transition-colors font-geist-mono"
+    >
+      Smart Classroom
+    </Link>
+  </li>
+
+  <li>
+    <Link
+      to="/solutions"
+      className="hover:text-white transition-colors font-geist-mono"
+    >
+      Content Development
+    </Link>
+  </li>
+
+  <li>
+    <Link
+      to="/solutions"
+      className="hover:text-white transition-colors font-geist-mono"
+    >
+      AV Integration
+    </Link>
+  </li>
+</ul>
+
         </div>
         <div>
           <h5
@@ -75,35 +76,35 @@ const Footer = () => {
           >
             Company
           </h5>
-          <ul className="space-y-3 text-sm text-slate-400" style={{}}>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors font-geist-mono"
-                style={{}}
-              >
-                About Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors font-geist-mono"
-                style={{}}
-              >
-                Careers
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors font-geist-mono"
-                style={{}}
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+         <ul className="space-y-3 text-sm text-slate-400">
+  <li>
+    <Link
+      to="/about"
+      className="hover:text-white transition-colors font-geist-mono"
+    >
+      About Us
+    </Link>
+  </li>
+
+  <li>
+    <Link
+      to="/careers"
+      className="hover:text-white transition-colors font-geist-mono"
+    >
+      Careers
+    </Link>
+  </li>
+
+  <li>
+    <Link
+      to="/contact"
+      className="hover:text-white transition-colors font-geist-mono"
+    >
+      Contact
+    </Link>
+  </li>
+</ul>
+
         </div>
       </div>
       <div
@@ -114,15 +115,33 @@ const Footer = () => {
           © 2024 Radintech India Pvt Ltd. All rights reserved.
         </p>
         <div className="flex gap-6 mt-4 md:mt-0">
-          <a href="#" className="hover:text-white font-geist-mono" style={{}}>
-            Twitter
-          </a>
-          <a href="#" className="hover:text-white font-geist-mono" style={{}}>
-            LinkedIn
-          </a>
-          <a href="#" className="hover:text-white font-geist-mono" style={{}}>
-            Instagram
-          </a>
+         <a
+  href="https://twitter.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white font-geist-mono"
+>
+  Twitter
+</a>
+
+<a
+  href="https://www.linkedin.com/company/radintech-india/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white font-geist-mono"
+>
+  LinkedIn
+</a>
+
+<a
+  href="https://instagram.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white font-geist-mono"
+>
+  Instagram
+</a>
+
         </div>
       </div>
     </div>

@@ -68,6 +68,11 @@ body {
   background-color: #F5F5F7;
   transition: all 0.3s ease;
 }
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,0,0,0.05);
+}
 
 .feature-card:hover {
   background-color: #e8e8ed;
@@ -80,3 +85,23 @@ body {
 /* .font-geist-mono {
   font-family: 'Geist Mono', monospace !important;
 } */
+
+
+
+/* Form styling */
+.input-base {
+  transition: all 0.2s ease;
+}
+
+.input-base:focus {
+  box-shadow: 0 0 0 4px rgba(26, 79, 139, 0.1);
+}
+
+/* Hide <details> marker */
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
