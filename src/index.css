@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #F5F7FA;
@@ -28,11 +52,31 @@ body {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
+/* Apple-style tracking */
+.tracking-tight-apple {
+  letter-spacing: -0.015em;
+}
 
+/* Glass Navbar */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+/* Feature card hover effect */
+.feature-card {
+  background-color: #F5F5F7;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  background-color: #e8e8ed;
+  transform: translateY(-2px);
+}
 .font-geist {
   font-family: 'Geist', sans-serif !important;
 }
 
-.font-geist-mono {
+/* .font-geist-mono {
   font-family: 'Geist Mono', monospace !important;
-}
+} */

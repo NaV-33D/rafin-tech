@@ -1,0 +1,20 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { Outlet } from "react-router-dom";
+
+const Layout = () => {
+  return (
+    <>
+      <Navbar />
+      
+      {/* Page content renders here */}
+      <main className="min-h-screen">
+        <Outlet />
+      </main>
+
+      <Footer />
+    </>
+  );
+};
+
+export default Layout;

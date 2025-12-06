@@ -9,7 +9,7 @@ const Home = () => {
 
 
   {/* NAVIGATION */}
-    <Navbar />
+    {/* <Navbar /> */}
   {/* PAGE 1: HERO SECTION */}
   <section
     id="home"
@@ -1396,7 +1396,7 @@ const Home = () => {
     </div>
   </section>
   {/* FOOTER */}
-  <Footer />
+  {/* <Footer /> */}
 </div>
 </>
   )
