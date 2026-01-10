@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Solutions from "./pages/Solutions";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Products from "./pages/Products";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
+      { path: "products", element: <Products /> },
       { path: "about", element: <About /> },
       { path: "solutions", element: <Solutions /> },
       { path: "projects", element: <Projects /> },
