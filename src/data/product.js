@@ -33,9 +33,9 @@ const products = [
   },
   {
     id: 2,
-    title: "Board Room",
+    title: "Electronic Lectern-Podium & Audio Podium",
     description:
-      "Smart boardroom solutions featuring video conferencing, wireless presentation systems, and seamless collaboration tools.",
+      "Professional electronic lectern-podium solutions with audio podium systems, vertical signage integration, and advanced presentation capabilities for boardrooms and auditoriums.",
     image: boardRoom,
   },
   {
@@ -68,9 +68,9 @@ const products = [
   },
   {
     id: 7,
-    title: "Integrated Center",
+    title: "Integrated Control Command Center",
     description:
-      "Centralized command and control centers integrating monitoring, communication, and data visualization systems.",
+      "Centralized command and control centers integrating monitoring, communication, and data visualization systems for smart city and administrative operations.",
     image: integratedCenter,
   },
   {
@@ -89,9 +89,9 @@ const products = [
   },
   {
     id: 10,
-    title: "Smart Classroom",
+    title: "Smart Classroom Solution",
     description:
-      "Digitally enabled classrooms with interactive boards, content sharing tools, and smart teaching infrastructure.",
+      "Comprehensive smart classroom solutions with interactive flat panels, digital podiums, multimedia projectors, and curriculum-aligned digital content for enhanced learning experiences.",
     image: smartClassroom,
   },
   {
@@ -110,9 +110,9 @@ const products = [
   },
   {
     id: 13,
-    title: "Signages",
+    title: "Digital Signages & Vertical Displays",
     description:
-      "Indoor and outdoor signage solutions including digital displays, wayfinding systems, and branding elements.",
+      "Comprehensive signage solutions including LED indoor and outdoor displays, vertical signage displays, information kiosks, and digital token systems for modern facilities.",
     image: signages,
   },
   {

@@ -421,6 +421,163 @@ const Solutions = () => {
       </div>
     </section>
   </div>
+  {/* COMPREHENSIVE PRODUCTS & SERVICES */}
+  <section className="py-24 bg-white">
+    <div className="max-w-[1440px] mx-auto px-6">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#0B1F3A] tracking-tight mb-4">
+          Our Products &amp; Services
+        </h2>
+        <p className="text-lg text-slate-500 font-light max-w-2xl mx-auto">
+          Comprehensive solutions for education, governance, and smart infrastructure.
+        </p>
+      </div>
+
+      {/* Smart Solutions */}
+      <div className="mb-16">
+        <h3 className="text-2xl font-semibold text-[#0B1F3A] mb-6 border-b border-slate-200 pb-3">
+          Smart Solutions
+        </h3>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Smart Classroom Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Smart City Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Smart Parking Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Integrated Control Command Center</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Smart Anganwadi</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Education Technology */}
+      <div className="mb-16">
+        <h3 className="text-2xl font-semibold text-[#0B1F3A] mb-6 border-b border-slate-200 pb-3">
+          Education Technology
+        </h3>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Interactive Flat Panel Displays</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Interactive Boards</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Multimedia Projectors</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Visualizers</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Podiums</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Language Lab Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Virtual Classroom Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Video Conferencing Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">3D Science Lab</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Institutional Furniture</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Text Book with Q.R. Code &amp; Video Enabled Features (Anganwadi to K-12 &amp; Competitive Exams)</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Content for Schools (Kannada/English Language)</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Library Solution</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Digital Signage & Display */}
+      <div className="mb-16">
+        <h3 className="text-2xl font-semibold text-[#0B1F3A] mb-6 border-b border-slate-200 pb-3">
+          Digital Signage &amp; Display
+        </h3>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">LED Indoor and Outdoor</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Vertical Signage Displays</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Information Kiosks</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Large Format Displays - Professional Display</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Video Wall</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Touch Tables</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Token System</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Electronic Lectern-Podium - Vertical Signage Solution</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Audio Podium</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Security & Surveillance */}
+      <div className="mb-16">
+        <h3 className="text-2xl font-semibold text-[#0B1F3A] mb-6 border-b border-slate-200 pb-3">
+          Security &amp; Surveillance
+        </h3>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">CCTV Cameras and Accessories</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Body Worn Cameras</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Mobile Surveillance</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">CCTV Surveillance</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Printing Services */}
+      <div className="mb-16">
+        <h3 className="text-2xl font-semibold text-[#0B1F3A] mb-6 border-b border-slate-200 pb-3">
+          Printing Services
+        </h3>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Digital Photo Copier</p>
+          </div>
+          <div className="p-4 rounded-xl border border-slate-200 bg-white hover:shadow-md transition-all">
+            <p className="text-sm font-medium text-[#0B1F3A]">Off-Set, Digital &amp; Large Format Printing Services Under One Roof</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   {/* CTA BANNER */}
   <section className="bg-[#0B1F3A] py-20 relative overflow-hidden">
     <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10" />

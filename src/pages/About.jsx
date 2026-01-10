@@ -35,21 +35,34 @@ const About = () => {
         </h2>
         <div className="space-y-6 text-slate-500 text-lg leading-relaxed font-light">
           <p className="">
-            With over{" "}
+            RADINTECH INDIA was established in the year{" "}
             <span className="text-[#1A4F8B] font-medium">
-              10+ years of expertise
+              2013 at Bangalore
             </span>{" "}
-            in the EdTech sector, Radintech India stands at the forefront of the
-            digital revolution in education. We don't just supply hardware; we
-            engineer learning ecosystems.
+            and opened a branch office at Hubballi. With years of experience in
+            the field of Education and Government Projects, we are today leading
+            Solution Provider for Smart Class Room, Audio Video Equipments, CCTV
+            Surveillance and Office Automation products across Karnataka.
           </p>
           <p>
-            From deploying Smart Classrooms in remote government schools to
-            setting up advanced Centres of Excellence in top universities, our
-            solutions are designed for impact. We are fully aligned with{" "}
-            <span className="text-[#0B1F3A] font-medium">NEP 2020</span>,
-            ensuring our content and infrastructure support the modern
-            pedagogical shift towards interactive learning.
+            We are known for providing the most superior quality products in the
+            market and efficient service. Radintech India has always made
+            enormous efforts to further upgrade its existing technology,
+            constantly assimilating and absorbing the latest trends in technology,
+            to meet growing consumer demands.
+          </p>
+          <p>
+            <span className="text-[#0B1F3A] font-medium">
+              "Radintech stands for Research and Development in Technology."
+            </span>{" "}
+            Our main vision is to digitalize our Education System by offering
+            Innovative Superior quality products at prices that make the economics
+            work.
+          </p>
+          <p>
+            Now Radintech India, being in the industry, wants to diversify and
+            venture into Corporations, ULBs, Smart City, Zilla Panchayat, and so
+            on and so forth.
           </p>
         </div>
         <div className="pt-4 grid grid-cols-2 gap-6">
@@ -207,9 +220,9 @@ const About = () => {
             Our Vision
           </h3>
           <p className="text-slate-500 leading-relaxed">
-            To be the most trusted partner for government and private
-            institutions in their journey towards complete digital
-            transformation.
+            To digitalize our Education System by offering Innovative Superior
+            quality products at prices that make the economics work. Radintech
+            stands for Research and Development in Technology.
           </p>
         </div>
         {/* Values */}
@@ -325,30 +338,32 @@ const About = () => {
           <div className="hidden lg:block w-32 h-1 bg-[#1A4F8B] rounded-full" />
         </div>
         <div className="relative border-l pl-10 space-y-12 border-slate-200">
-          {/* 2012 */}
+          {/* 2013 */}
           <div className="relative">
             <div className="absolute -left-[45px] top-1 h-3 w-3 rounded-full ring-4 bg-slate-300 ring-slate-50" />
             <span className="text-sm font-semibold text-[#1A4F8B] font-geist-mono block mb-1">
-              2012
+              2013
             </span>
             <h4 className="text-lg font-semibold text-[#0B1F3A] mb-1">
               Foundation
             </h4>
             <p className="text-slate-500 text-sm">
-              Radintech established with a focus on computer hardware supply.
+              RADINTECH INDIA established at Bangalore with a focus on Education
+              and Government Projects.
             </p>
           </div>
-          {/* 2016 */}
+          {/* Branch Expansion */}
           <div className="relative">
             <div className="absolute -left-[45px] top-1 h-3 w-3 rounded-full ring-4 bg-slate-300 ring-slate-50" />
             <span className="text-sm font-semibold text-[#1A4F8B] font-geist-mono block mb-1">
-              2016
+              Expansion
             </span>
             <h4 className="text-lg font-semibold text-[#0B1F3A] mb-1">
-              Expansion into Govt Schools
+              Branch Office at Hubballi
             </h4>
             <p className="text-slate-500 text-sm">
-              Awarded first major contract for district-level lab setups.
+              Opened branch office to serve clients across Karnataka, expanding
+              our reach and service capabilities.
             </p>
           </div>
           {/* 2019 */}
@@ -507,6 +522,176 @@ const About = () => {
             End-to-End Solutions
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+  {/* 7. ESTEEMED CLIENTS SECTION */}
+  <section className="py-24 bg-[#F5F5F7]">
+    <div className="max-w-[1440px] mx-auto px-6 md:px-10">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#0B1F3A] tracking-tight mb-4">
+          Our Esteemed Clients
+        </h2>
+        <p className="text-lg text-slate-500 font-light max-w-2xl mx-auto">
+          Trusted by leading government bodies, educational institutions, and
+          reputed organizations across Karnataka and India.
+        </p>
+      </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all">
+          <h4 className="font-semibold text-[#0B1F3A] mb-3">Government Bodies</h4>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>• Social Welfare Department</li>
+            <li>• Center and State Governments</li>
+            <li>• DGS&amp;D Rates Supply Partner</li>
+          </ul>
+        </div>
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all">
+          <h4 className="font-semibold text-[#0B1F3A] mb-3">Universities</h4>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>• Agriculture University</li>
+            <li>• Horticulture University</li>
+            <li>• Karnataka University</li>
+            <li>• Gulbarga University</li>
+            <li>• Veterinary University</li>
+          </ul>
+        </div>
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all">
+          <h4 className="font-semibold text-[#0B1F3A] mb-3">Defense &amp; Education</h4>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>• Sainik Schools</li>
+            <li>• Naval Institutions</li>
+            <li>• Air Force Establishments</li>
+            <li>• Educational Institutions</li>
+            <li>• Reputed Organizations</li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-12 p-6 bg-blue-50 rounded-2xl border border-blue-100">
+        <p className="text-sm text-slate-600 text-center">
+          We are associated with Government Bodies and Departments by supplying
+          Products and Solutions under{" "}
+          <span className="font-semibold text-[#1A4F8B]">DGS&amp;D Rates</span>.
+        </p>
+      </div>
+    </div>
+  </section>
+  {/* 8. DIVERSIFICATION SECTION */}
+  <section className="py-24 px-6 md:px-10 max-w-[1440px] mx-auto">
+    <div className="mb-16 text-center">
+      <h2 className="text-3xl md:text-4xl font-semibold text-[#0B1F3A] tracking-tight mb-4">
+        Expanding Our Horizons
+      </h2>
+      <p className="text-lg text-slate-500 font-light max-w-2xl mx-auto">
+        Radintech India is now diversifying and venturing into new sectors to
+        serve a broader range of clients.
+      </p>
+    </div>
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="p-6 rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 hover:shadow-lg transition-all">
+        <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-[#1A4F8B] mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-building"
+          >
+            <rect width={16} height={20} x={4} y={2} rx={2} ry={2} />
+            <path d="M9 22v-4h6v4" />
+            <path d="M8 6h.01" />
+            <path d="M16 6h.01" />
+            <path d="M12 6h.01" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
+          </svg>
+        </div>
+        <h3 className="font-semibold text-[#0B1F3A] mb-2">Corporations</h3>
+        <p className="text-sm text-slate-500">
+          Enterprise solutions for corporate offices and business establishments.
+        </p>
+      </div>
+      <div className="p-6 rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 hover:shadow-lg transition-all">
+        <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-green-600 mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-map"
+          >
+            <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
+            <line x1={9} x2={9} y1={3} y2={21} />
+            <line x1={15} x2={15} y1={3} y2={21} />
+          </svg>
+        </div>
+        <h3 className="font-semibold text-[#0B1F3A] mb-2">ULBs</h3>
+        <p className="text-sm text-slate-500">
+          Urban Local Bodies solutions for municipal corporations and councils.
+        </p>
+      </div>
+      <div className="p-6 rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 hover:shadow-lg transition-all">
+        <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-zap"
+          >
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+          </svg>
+        </div>
+        <h3 className="font-semibold text-[#0B1F3A] mb-2">Smart City</h3>
+        <p className="text-sm text-slate-500">
+          Integrated smart city solutions for urban transformation projects.
+        </p>
+      </div>
+      <div className="p-6 rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 hover:shadow-lg transition-all">
+        <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-orange-600 mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-landmark"
+          >
+            <line x1={3} x2={21} y1={22} y2={22} />
+            <line x1={6} x2={6} y1={18} y2={11} />
+            <line x1={10} x2={10} y1={18} y2={11} />
+            <line x1={14} x2={14} y1={18} y2={11} />
+            <line x1={18} x2={18} y1={18} y2={11} />
+            <polygon points="12 2 20 7 4 7" />
+          </svg>
+        </div>
+        <h3 className="font-semibold text-[#0B1F3A] mb-2">Zilla Panchayat</h3>
+        <p className="text-sm text-slate-500">
+          District-level solutions for Zilla Panchayat administrative offices.
+        </p>
       </div>
     </div>
   </section>

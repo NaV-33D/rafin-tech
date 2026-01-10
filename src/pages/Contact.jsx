@@ -43,9 +43,27 @@ const Contact = () => {
                     Headquarters
                   </h4>
                   <p className="text-slate-500 text-sm leading-relaxed">
-                    123 Innovation Park, Tech Hub,
+                    RADINTECH INDIA
                     <br />
-                    New Delhi, India 110020
+                    Bangalore, Karnataka
+                    <br />
+                    Established 2013
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="w-10 h-10 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center flex-shrink-0 text-[#1A4F8B]">
+                  <MapPin className="w-5 h-5" />
+
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-[#0B1F3A] mb-1">
+                    Branch Office
+                  </h4>
+                  <p className="text-slate-500 text-sm leading-relaxed">
+                    RADINTECH INDIA
+                    <br />
+                    Hubballi, Karnataka
                   </p>
                 </div>
               </div>
@@ -223,8 +241,9 @@ const Contact = () => {
             </div>
           </summary>
           <div className="px-6 pb-6 text-slate-500 font-light leading-relaxed">
-            Absolutely. Most of our hardware and smart classroom solutions are
-            listed on GeM to facilitate easy procurement for government
+            Yes, we are associated with Government Bodies and Departments by
+            supplying Products and Solutions under DGS&amp;D Rates. Our solutions
+            are also listed on GeM to facilitate easy procurement for government
             departments and PSUs.
           </div>
         </details>

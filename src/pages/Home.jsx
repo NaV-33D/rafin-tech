@@ -602,24 +602,28 @@ const Home = () => {
             className="text-3xl text-[#0B1F3A] mb-6 tracking-tight font-geist-mono font-semibold"
             style={{}}
           >
-            Empowering Institutions Since 2012
+            Empowering Institutions Since 2013
           </h2>
           <p
             className="text-slate-600 mb-6 leading-relaxed font-geist-mono"
             style={{}}
           >
-            Radintech India stands at the intersection of pedagogy and
-            technology. Our mission is to bridge the digital divide in India's
-            education sector by providing robust, scalable, and easy-to-use
-            infrastructure.
+            RADINTECH INDIA, established in 2013 at Bangalore with a branch
+            office at Hubballi, stands at the intersection of pedagogy and
+            technology. With years of experience in Education and Government
+            Projects, we are today leading Solution Provider for Smart Class
+            Room, Audio Video Equipments, CCTV Surveillance and Office
+            Automation products across Karnataka.
           </p>
           <p
             className="text-slate-600 mb-8 leading-relaxed font-geist-mono"
             style={{}}
           >
-            With over a decade of experience working with state governments and
-            premier technical universities, we understand the nuance of public
-            sector requirements and enterprise-grade delivery.
+            We are known for providing superior quality products in the market
+            and efficient service. Radintech has always made enormous efforts to
+            further upgrade its existing technology, constantly assimilating and
+            absorbing the latest trends in technology. "Radintech stands for
+            Research and Development in Technology."
           </p>
           {/* Stats Grid */}
           <div className="grid grid-cols-2 gap-6">
@@ -689,8 +693,8 @@ const Home = () => {
             Our Vision
           </h4>
           <p className="text-sm text-slate-500 font-geist-mono" style={{}}>
-            Creating a seamless educational ecosystem where technology is an
-            enabler, not a barrier.
+            To digitalize our Education System by offering Innovative Superior
+            quality products at prices that make the economics work.
           </p>
         </div>
         <div className="bg-white p-8 rounded-2xl border-t-4 border-[#FF8A3D] shadow-sm">
@@ -1198,8 +1202,17 @@ const Home = () => {
                   className="text-slate-500 text-sm font-geist-mono"
                   style={{}}
                 >
-                  Radintech India Pvt LtdTech Park, Electronic CityBangalore,
-                  Karnataka 560100
+                  RADINTECH INDIA
+                  <br />
+                  Bangalore, Karnataka
+                  <br />
+                  Established 2013
+                </p>
+                <p
+                  className="text-slate-400 text-xs font-geist-mono mt-2"
+                  style={{}}
+                >
+                  Branch Office: Hubballi, Karnataka
                 </p>
               </div>
             </div>
