@@ -26,7 +26,7 @@ export default function Navbar() {
             Home
           </Link>
            <Link to="/products" className="hover:text-[#1A4F8B] transition-colors">
-            Products
+            Our Products
           </Link>
 
           <Link
@@ -95,6 +95,9 @@ export default function Navbar() {
             >
               Home
             </Link>
+            <Link to="/products" className="block text-lg font-medium text-[#0B1F3A] hover:text-[#1A4F8B] transition-colors">
+            Our Products
+          </Link>
 
             <Link
               to="/solutions"

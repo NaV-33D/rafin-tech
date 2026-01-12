@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
     return (
-        <div className=' w-full h-full mx-auto '>
+        <div className='w-full h-full mx-auto '>
             <section className="pt-40 pb-20 bg-white">
                 <div className="max-w-[1440px] mx-auto px-6 text-center">
                     <h1 className="text-5xl md:text-6xl font-semibold text-[#1d1d1f] tracking-tight mb-6 leading-tight">

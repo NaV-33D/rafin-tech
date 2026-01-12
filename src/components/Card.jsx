@@ -3,7 +3,7 @@ import products from "../data/product.js";
 
 const Card = () => {
   return (
-    <div className="flex flex-wrap gap-6">
+    <div className="flex flex-wrap justify-center gap-6">
       {products.map((product) => (
         <div
           key={product.id}
