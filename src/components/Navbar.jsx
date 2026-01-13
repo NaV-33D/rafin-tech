@@ -7,7 +7,14 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-50 transition-all duration-300 glass-panel border-b border-slate-200/60">
+    <nav 
+      className="fixed w-full z-50 transition-all duration-300 glass-panel border-b border-slate-200/60"
+      style={{
+        background: 'rgba(255, 255, 255, 0.7)',
+        backdropFilter: 'blur(12px)',
+        WebkitBackdropFilter: 'blur(12px)'
+      }}
+    >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
