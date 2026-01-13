@@ -33,9 +33,9 @@ const products = [
   },
   {
     id: 2,
-    title: "Electronic Lectern-Podium & Audio Podium",
+    title: "Board Room",
     description:
-      "Professional electronic lectern-podium solutions with audio podium systems, vertical signage integration, and advanced presentation capabilities for boardrooms and auditoriums.",
+      "Smart boardroom solutions featuring video conferencing, wireless presentation systems, and seamless collaboration tools.",
     image: boardRoom,
   },
   {
@@ -47,7 +47,7 @@ const products = [
   },
   {
     id: 4,
-    title: "Center of Excellence",
+    title: "Centers of Excellence",
     description:
       "Advanced learning and innovation centers equipped with modern AV infrastructure, interactive systems, and scalable technology.",
     image: centerOfExcellence,
@@ -68,7 +68,7 @@ const products = [
   },
   {
     id: 7,
-    title: "Integrated Control Command Center",
+    title: "Integrated Command Center",
     description:
       "Centralized command and control centers integrating monitoring, communication, and data visualization systems for smart city and administrative operations.",
     image: integratedCenter,
@@ -112,7 +112,7 @@ const products = [
     id: 13,
     title: "Digital Signages & Vertical Displays",
     description:
-      "Comprehensive signage solutions including LED indoor and outdoor displays, vertical signage displays, information kiosks, and digital token systems for modern facilities.",
+    "Indoor and outdoor signage solutions including digital displays, wayfinding systems, and branding elements.",
     image: signages,
   },
   {
